@@ -1,0 +1,182 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns":  [
+                "hello",
+                "hey",
+                "hi",
+                "good day",
+                "Greetings",
+                "How are you?",
+                "What's up"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey!",
+                "What can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "exit",
+                "quit"
+            ],
+            "responses": [
+                "Have a nice day~",
+                "Bye! See you later~",
+                "Bye! Come back again soon."
+            ],
+            "event": "quit"
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "praise",
+            "patterns": [
+                "You are so handsome",
+                "amazing",
+                "wow",
+                "You are so smart",
+                "You are the best",
+                "I love you",
+                "I like you",
+                "Good job"
+            ],
+            "responses": [
+                "Thank you!",
+                "Thanks so much!",
+                "Thank you for the kind words."
+            ]
+        },
+        {
+            "tag": "tasks",
+            "patterns": [
+                "What can you do?",
+                "What are your features?",
+                "What are you abilities",
+                "can you talk"
+            ],
+            "responses": [
+                "I can do whatever you asks me to do",
+                "I can talk and do things for you"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "You got a joke?",
+                "Could you tell me something funny?",
+                "I'm bored"
+            ],
+            "responses": [
+                "How do you make holy water? you boil the hell out of it",
+                "what kind of bees make milk instead of honey? Boobies",
+                "Did you hear oxygen went on a date with potassium? A: It went OK.",
+                "What starts with E, ends with E, and has only 1 letter in it? An Envelope.",
+                "How does the ocean say hello? It waves."
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "How is the weather?",
+                "What's the weather like?",
+                "Is the weather nice today?"
+            ],
+            "responses": [
+                "It's lovely day!",
+                "Wonderful!",
+                "Sunny as always!"
+            ]
+        },
+        {
+            "tag": "movie",
+            "patterns": [
+                "What's your favorite movie?",
+                "Can you recommend me a movie?",
+                "What's the film you like most?",
+                "Do you have any good movie for me?",
+                "Which film would you suggest?",
+                "I'd like to watch a movie. Any ideas?"
+            ],
+            "responses": [
+                "'The Silence of the Lambs'. It is a classic.",
+                "Try 'The Dark Knight'. Especially if you're an action or comics fan.",
+                "I heard 'Spider-Man' is pretty good.",
+                "'Pirates of the Caribbean' is my favorite."
+            ]
+        },
+        {
+            "tag": "about you",
+            "patterns": [
+                "What's your name?",
+                "who are you",
+                "tell me about yourself",
+                "identify you"
+            ],
+            "responses": [
+                "I'm a chatbot",
+                "I'm a simple AI"
+            ]
+        },
+        {
+            "tag": "about me",
+            "patterns": [
+                "Do you know me?",
+                "who am I",
+                "tell me about myself",
+                "identify me"
+            ],
+            "responses": [
+                "Yes, you are a human",
+                "You are a dumb person asking a machine about yourself",
+                "Sorry i can't tell that in public, maybe you are batman"
+            ]
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "Who is your creator?",
+                "who created you",
+                "who made you",
+                "who is your daddy",
+                "who is your father"
+            ],
+            "responses": [
+                "That would be Jerry Qiu",
+                "I was created by Jerry Qiu",
+                "Mr. Jerry Qiu is my creator"
+            ]
+        },
+        {
+            "tag": "wiki",
+            "patterns": [
+                "What is",
+                "Who is",
+                "Where is"
+            ],
+            "responses": [
+                "Searching wiki..."
+            ],
+            "event": "wiki"
+        }
+    ]
+}
